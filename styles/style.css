@@ -99,7 +99,7 @@ ol {
   display: flex;
   align-items: center;
   width: fit-content;
-  gap: 15px;
+  gap: 5px;
   cursor: pointer;
 }
 
@@ -309,3 +309,6 @@ ol {
 .more-button {
   width: 100%;
 }
+
+
+/* спасибо большое за проверку) */
