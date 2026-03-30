@@ -137,7 +137,6 @@ ol {
   min-width: 225px;
 }
 
-
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
 }
@@ -211,7 +210,6 @@ ol {
   outline: 1px solid #fff;
 }
 
-
 .content__details {
   display: flex;
   flex-direction: column;
@@ -229,18 +227,18 @@ ol {
 }
 
 .content__list-container {
+  display: flex;
+  flex-direction: column;
   height: 534px;
   overflow: auto;
   position: relative;
+  gap: 30px;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
-}
-
-.content__list-item {
   padding-left: 3px;
   padding-right: 3px;
 }
@@ -310,7 +308,7 @@ ol {
   -webkit-line-clamp: 1;
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  overflow: hidden;;
+  overflow: hidden;
 }
 
 .more-button {
